@@ -16,24 +16,23 @@ csv module (this is part of the Python standard library, no additional installat
 os module (this is part of the Python standard library, no additional installation required)
 
 Getting Started
-1. Clone or download the repository
-You can either clone this repository (if hosted on a platform like GitHub) or download the script file directly.
+1. You can either clone this repository (if hosted on a platform like GitHub) or download the script file directly.
 
-2. Set up your data file
-Prepare your CSV file and ensure it has the following format:
-    Ballot ID, County, Candidate
-    1,Jefferson,John Doe
-    2,King,Jane Smith
+2. Set up your data file. Prepare your CSV file and ensure it has the following format:
+   
+    <br>Ballot ID, County, Candidate 
+    <br>1,Jefferson,John Doe
+    <br>2,King,Jane Smith
 
-3. Modify the CSV file path
-In the script, replace the placeholder for the CSV file path with the actual path to your CSV file:
+4. Modify the CSV file path. In the script, replace the placeholder for the CSV file path with the actual path to your CSV file:
+   
     csv_file = 'path_to_your_file.csv'
 
-4. Run the script
-Execute the script by running the following command in your terminal or command prompt:
+6. Run the script. Execute the script by running the following command in your terminal or command prompt:
+   
     python main.py
 
-5. Results
+8. Results
 The script will:
     * Print the analysis results in the console.
     * Create an output CSV file, election_results.csv, containing the following results:
