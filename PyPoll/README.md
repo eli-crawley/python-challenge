@@ -1,4 +1,4 @@
-Election Results Script
+# Election Results Script
 
 Description
 This Python script reads an election data CSV file, performs an analysis of the election results, and outputs the following:
