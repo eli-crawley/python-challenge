@@ -19,22 +19,19 @@ Getting Started
 1. Clone or download the repository
 You can either clone this repository (if hosted on a platform like GitHub) or download the script file directly.
 
-2. Set up your data file
-Prepare your CSV file with the financial data. Ensure it is structured in the following format:
-    Date, Profit/Losses
-    Jan-2010, 1000
-    Feb-2010, 1500
+2. Prepare your CSV file with the financial data. Ensure it is structured in the following format:
+    <br>Date, Profit/Losses
+    <br>Jan-2010, 1000
+    <br>Feb-2010, 1500
 
-3. Modify the CSV file path
-In the script, replace the placeholder for the CSV file path with the actual path to your CSV file:
-    csv_file = 'path_to_your_file.csv'
+3. Modify the CSV file path. In the script, replace the placeholder for the CSV file path with the actual path to your CSV file:
+    <br>csv_file = 'path_to_your_file.csv'
 
-4. Run the script
-Execute the script by running the following command in your terminal or command prompt:
-    python main.py
+4. Run the script. Execute the script by running the following command in your terminal or command prompt:
+    <br>python main.py
 
 5. Results
-The script will:
+<br>The script will:
     * Print the analysis results in the console.
     * Create an output CSV file, output_financial_analysis.csv, containing the following results:
         * Total months
