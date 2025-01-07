@@ -1,4 +1,4 @@
-Financial Analysis Script
+# Financial Analysis Script
 
 Description
 This Python script reads a CSV file containing financial data, performs analysis, and outputs the results to both the console and a new CSV file. The analysis includes:
